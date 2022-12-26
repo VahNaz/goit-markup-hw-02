@@ -1,0 +1,174 @@
+.list {
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+}
+.logo {
+    text-decoration: none;
+}
+
+:root {
+    --primary-text-color: #212121;
+    --secondary-text-color: #757575;
+    --dark-theme-text-color: #FFFFFF;
+    --accent-color:#2196F3;
+}
+body {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+}
+
+
+/* Header start */
+
+.logo {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color: #2196F3
+}
+
+.logo-span {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color: #000000
+}
+
+.nav-list-item {
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.contact-mail {
+    color: var(--secondary-text-color);
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.contact-number {
+    color: var(--secondary-text-color);
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+/* Header end */
+
+/* Studio main start */
+
+.main-title {
+    color: var(--dark-theme-text-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.button {
+    color: var(--dark-theme-text-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+
+/* desc-title is common for studio and portfolio pages */
+.desc-title {
+    color: var(--primary-text-color);
+    font-weight: 700;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.description {
+    color: var(--secondary-text-color);
+    font-weight: 400;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+.section-title {
+    color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.hero-list-name {
+    color: var(--primary-text-color);
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.hero-list-title {
+    color: var(--secondary-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+/* Studio main end */
+
+/* Portfolio main start */
+
+.btn-filter {
+    color: var(--primary-text-color);
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.desc-title-text {
+    color: var(--secondary-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+
+}
+
+/* Portfolio main end */
+
+/* Footer start */
+
+.address {
+    font-weight: 400;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.footer-mail {
+    font-weight: 400;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-number {
+    font-weight: 400;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/* Footer end */
