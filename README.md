@@ -1,2 +1,2 @@
 # goit-markup-hw-02
-2nd repository for training course
+Training course 2nd part
