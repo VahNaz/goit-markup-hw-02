@@ -17,7 +17,6 @@
 body {
     background-color: var(--dark-theme-text-color);
     font-family: "Roboto", sans-serif;
-    font-style: normal;
     color: var(--primary-text-color);
     font-weight: 500;
     font-size: 14px;
@@ -32,7 +31,8 @@ body {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    color: #2196F3
+    color: #2196F3;
+    letter-spacing: 0.03em;
 }
 
 .header .navigation .logo-span {
@@ -40,7 +40,8 @@ body {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    color: #000000
+    color: #000000;
+    letter-spacing: 0.03em;
 }
 
 .nav-list-item {
@@ -102,6 +103,7 @@ body {
 
 .button {
     color: var(--dark-theme-text-color);
+    background-color: var(--accent-color);
     font-family: inherit;
     font-weight: 700;
     font-size: 16px;
@@ -112,18 +114,20 @@ body {
     letter-spacing: 0.06em;
 }
 
-/* desc-title is common for studio and portfolio pages */
-.desc-title {
+.list>.desc-title {
     color: var(--primary-text-color);
     font-weight: 700;
     line-height: 1.14;
+    font-size: 14px;
     text-transform: uppercase;
+    letter-spacing: 0.03em;
 }
 
 .description {
     color: var(--secondary-text-color);
     font-weight: 400;
     line-height: 1.71;
+    letter-spacing: 0.03em;
 }
 
 .section-title {
@@ -132,6 +136,7 @@ body {
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
+    letter-spacing: 0.03em;
 }
 
 .hero {
@@ -145,8 +150,10 @@ body {
 .hero-list-name {
     color: var(--primary-text-color);
     font-size: 16px;
+    font-weight: 500;
     line-height: 1.18;
     text-align: center;
+    letter-spacing: 0.03em;
 }
 
 .hero-list-title {
@@ -155,6 +162,7 @@ body {
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
+    letter-spacing: 0.03em;
 }
 
 /* Studio main end */
@@ -167,6 +175,7 @@ body {
     font-size: 16px;
     line-height: 1.62;
     text-align: center;
+    letter-spacing: 0.03em;
 }
 
 .btn-filter:hover,
@@ -175,12 +184,20 @@ body {
     background-color: var(--accent-color);
 }
 
+.portfolio-list-item .desc-title {
+    color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
 
 .desc-title-text {
     color: var(--secondary-text-color);
     font-weight: 400;
     font-size: 16px;
     line-height: 1.87;
+    letter-spacing: 0.03em;
 }
 
 
@@ -197,6 +214,7 @@ body {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
+    letter-spacing: 0.03em;
     color: var(--dark-theme-text-color)
 }
 .address {
@@ -204,12 +222,14 @@ body {
     font-weight: 400;
     line-height: 1.71;
     color: #FFFFFF;
+    letter-spacing: 0.03em;
 }
 
 .footer-mail, .footer-number {
     font-style: normal;
     font-weight: 400;
     line-height: 1.71;
+    letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
 
