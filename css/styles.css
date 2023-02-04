@@ -8,6 +8,21 @@
     text-decoration: none;
 }
 
+h1, h2, h3, h4, p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+}
+
 :root {
     --primary-text-color: #212121;
     --secondary-text-color: #757575;
@@ -22,6 +37,13 @@ body {
     font-size: 14px;
 }
 
+.container {
+    align-items: center;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
 
 /* Header start */
 
@@ -41,6 +63,11 @@ body {
     line-height: 1.19;
     color: #000000;
     letter-spacing: 0.03em;
+}
+
+.nav-list {
+    display: block;
+    display: flex;
 }
 
 .nav-list-item {
